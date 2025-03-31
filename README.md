@@ -19,44 +19,44 @@ cd weather-app
 
 ##  2⃣ Backend Setup (Django REST Framework)
 
-Navigate to the backend folder
+# Navigate to the backend folder
 
 cd backend
 
-Create a virtual environment (optional but recommended)
+# Create a virtual environment (optional but recommended)
 
 python -m venv venv
 source venv/bin/activate  # On Windows, use: venv\Scripts\activate
 
-Install dependencies
+# Install dependencies
 
 pip install -r requirements.txt
 
-Run migrations
+# Run migrations
 
 python manage.py migrate
 
-Start the Django server
+# Start the Django server
 
 python manage.py runserver
 
-Your Django API will be available at http://127.0.0.1:8000/api/weather/
+# Your Django API will be available at http://127.0.0.1:8000/api/weather/
 
 ## 3⃣ Frontend Setup (React)
 
-Navigate to the frontend folder
+# Navigate to the frontend folder
 
 cd ../frontend
 
-Install dependencies
+# Install dependencies
 
 npm install
 
-Start the React app
+# Start the React app
 
 npm start
 
-Your frontend will run at http://localhost:3000/
+# Your frontend will run at http://localhost:3000/
 
 ## 🔗 API Endpoints
 
